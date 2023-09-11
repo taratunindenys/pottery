@@ -1,18 +1,81 @@
-/* line 1, E:/main-prodject/sass/style.sass */
+/* line 1, E:/pottery/sass/style.sass */
 *, ::after, ::befor {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* line 7, E:/main-prodject/sass/style.sass */
+/* line 7, E:/pottery/sass/style.sass */
 html {
   font-size: 62.5%;
 }
 
-/* line 10, E:/main-prodject/sass/style.sass */
+/* line 10, E:/pottery/sass/style.sass */
 body {
   font-family: 'Roboto';
+  background: #41442C;
+  color: #fff;
+  padding: 40px 92px;
+}
+
+/* line 15, E:/pottery/sass/style.sass */
+a {
+  text-decoration: none;
+  color: #F2F1EE;
+}
+
+/* line 19, E:/pottery/sass/style.sass */
+.container {
+  max-width: 1366px;
+}
+
+/* line 21, E:/pottery/sass/style.sass */
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 24, E:/pottery/sass/style.sass */
+.logo {
+  display: flex;
+  align-items: center;
+  width: 18rem;
+  height: 5rem;
+}
+
+/* line 29, E:/pottery/sass/style.sass */
+.menu__list {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.6rem;
+}
+
+/* line 33, E:/pottery/sass/style.sass */
+.menu__list-item {
+  list-style-type: none;
+}
+
+/* line 39, E:/pottery/sass/style.sass */
+.menu__btn {
+  display: none;
+}
+
+/* line 42, E:/pottery/sass/style.sass */
+.lang {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+/* line 46, E:/pottery/sass/style.sass */
+.reg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2F2C22;
+  background: #EBD7B2;
+  width: 18rem;
+  font-size: 1.6rem;
 }
 
 /*# sourceMappingURL=style.css.map */
