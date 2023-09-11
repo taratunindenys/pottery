@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.sass"
+	],
+	"sourcesContent": [
+		"*, ::after, ::befor {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box; }\n\n\nhtml {\n    font-size: 62.5%; }\n\nbody {\n    font-family: 'Roboto'; }\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,CAAC,EAAE,OAAO,EAAE,OAAO,CAAC;EAChB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CAAG;;;AAG7B,AAAA,IAAI,CAAC;EACD,SAAS,EAAE,KAAK;CAAG;;;AAEvB,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,QAAQ;CAAG"
+}

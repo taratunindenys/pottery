@@ -1,0 +1,145 @@
+*, ::after, ::befor {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto";
+  font-weight: 400;
+  color: gray;
+  font-size: 1.6rem;
+  letter-spacing: 0.2rem;
+  padding: 5rem;
+  background-color: #fff;
+}
+
+.container {
+  background-color: #f7f7f7;
+  height: 94vh;
+}
+
+.header {
+  height: 95vh;
+  background: url(../img/background1.png) center/cover no-repeat;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 78%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 78%);
+  position: relative;
+}
+.header__logo {
+  position: absolute;
+  left: 2rem;
+  top: 2rem;
+}
+.header__box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+.title-first {
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+.title-first__main {
+  font-weight: 800;
+  font-size: 5rem;
+  line-height: 6rem;
+  display: block;
+  animation: leftTorigth 1.5s;
+  backface-visibility: hidden;
+}
+.title-first__secondary {
+  font-weight: 200;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  letter-spacing: 0.5rem;
+  display: block;
+  animation: rightToleft 1.5s;
+  backface-visibility: hidden;
+  margin-bottom: 6rem;
+}
+
+.btn:link, .btn:visited {
+  text-decoration: none;
+  color: #777;
+  padding: 1.5rem 4rem;
+  background-color: #fff;
+  border-radius: 5rem;
+  display: inline-block;
+  transition: all 0.5s;
+  position: relative;
+  font-size: 2rem;
+}
+.btn:link:hover, .btn:visited:hover {
+  transform: translateY(-4px);
+}
+.btn:link:hover::after, .btn:visited:hover::after {
+  opacity: 0;
+  transform: scale(1.4, 1.7);
+}
+.btn:link:active, .btn:visited:active {
+  tratransform: translateY(-2px);
+}
+.btn:link::after, .btn:visited::after {
+  content: "";
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 5rem;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+.btn_animated {
+  animation: btnToup 0.5s ease-out 0.7s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes leftTorigth {
+  0% {
+    opacity: 0;
+    transform: translate(-10rem);
+  }
+  80% {
+    transform: translate(2rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+@keyframes rightToleft {
+  0% {
+    opacity: 0;
+    transform: translate(10rem);
+  }
+  80% {
+    transform: translate(-2rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+@keyframes btnToup {
+  0% {
+    opacity: 0;
+    transform: translate(0, 5rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0px);
+  }
+}/*# sourceMappingURL=style.css.map */

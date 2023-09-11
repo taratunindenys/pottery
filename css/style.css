@@ -1,0 +1,18 @@
+/* line 1, E:/main-prodject/sass/style.sass */
+*, ::after, ::befor {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 7, E:/main-prodject/sass/style.sass */
+html {
+  font-size: 62.5%;
+}
+
+/* line 10, E:/main-prodject/sass/style.sass */
+body {
+  font-family: 'Roboto';
+}
+
+/*# sourceMappingURL=style.css.map */
