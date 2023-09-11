@@ -41,9 +41,10 @@ a {
 .header {
   display: flex;
   justify-content: space-between;
+  margin: 0 0 4rem 9.3rem;
 }
 
-/* line 33, E:/pottery/sass/style.sass */
+/* line 34, E:/pottery/sass/style.sass */
 .logo {
   display: flex;
   align-items: center;
@@ -51,31 +52,31 @@ a {
   height: 5rem;
 }
 
-/* line 38, E:/pottery/sass/style.sass */
+/* line 39, E:/pottery/sass/style.sass */
 .menu__list {
   display: flex;
   gap: 2rem;
   font-size: 1.6rem;
 }
 
-/* line 42, E:/pottery/sass/style.sass */
+/* line 43, E:/pottery/sass/style.sass */
 .menu__list-item {
   list-style-type: none;
 }
 
-/* line 48, E:/pottery/sass/style.sass */
+/* line 49, E:/pottery/sass/style.sass */
 .menu__btn {
   display: none;
 }
 
-/* line 51, E:/pottery/sass/style.sass */
+/* line 52, E:/pottery/sass/style.sass */
 .lang {
   display: flex;
   align-items: center;
   font-size: 1.6rem;
 }
 
-/* line 55, E:/pottery/sass/style.sass */
+/* line 56, E:/pottery/sass/style.sass */
 .reg {
   display: flex;
   align-items: center;
@@ -87,16 +88,16 @@ a {
   height: 4rem;
 }
 
-/* line 64, E:/pottery/sass/style.sass */
+/* line 65, E:/pottery/sass/style.sass */
 .wrapper {
   display: flex;
   height: 62rem;
   box-sizing: border-box;
   margin-bottom: 90px;
-  border: 1px solid #76786E;
+  border-bottom: 1px solid #76786E;
 }
 
-/* line 73, E:/pottery/sass/style.sass */
+/* line 74, E:/pottery/sass/style.sass */
 .wrapper-left {
   width: 50%;
   box-sizing: border-box;
@@ -104,25 +105,25 @@ a {
   position: relative;
 }
 
-/* line 81, E:/pottery/sass/style.sass */
+/* line 82, E:/pottery/sass/style.sass */
 .wrapper-right {
   width: 50%;
 }
 
-/* line 86, E:/pottery/sass/style.sass */
+/* line 87, E:/pottery/sass/style.sass */
 .wrapper__left-title {
   font-family: "Ashley";
   font-size: 6rem;
   padding: 5.3rem 2rem 9.2px 0;
 }
 
-/* line 91, E:/pottery/sass/style.sass */
+/* line 92, E:/pottery/sass/style.sass */
 .wrapper__left-p {
   font-size: 1.6rem;
   padding: 0 0 2rem 0;
 }
 
-/* line 95, E:/pottery/sass/style.sass */
+/* line 96, E:/pottery/sass/style.sass */
 .wrapper__left-img {
   border-radius: 0 154px 0 0;
   position: absolute;
@@ -130,13 +131,13 @@ a {
   left: 0;
 }
 
-/* line 101, E:/pottery/sass/style.sass */
+/* line 102, E:/pottery/sass/style.sass */
 .right-img1 {
   border-radius: 154px  0 154px 0;
-  margin-right: 2.6rem;
+  margin-right: 1rem;
 }
 
-/* line 104, E:/pottery/sass/style.sass */
+/* line 105, E:/pottery/sass/style.sass */
 .right-img2 {
   border-radius: 0 154px  0 154px;
 }
