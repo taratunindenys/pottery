@@ -1,41 +1,49 @@
-/* line 1, E:/pottery/sass/style.sass */
+@font-face {
+  font-family: 'Ashley';
+  src: url("../fonts/AshleyCapitaliSofia.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* line 8, E:/pottery/sass/style.sass */
 *, ::after, ::befor {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* line 7, E:/pottery/sass/style.sass */
+/* line 14, E:/pottery/sass/style.sass */
 html {
   font-size: 62.5%;
 }
 
-/* line 10, E:/pottery/sass/style.sass */
+/* line 17, E:/pottery/sass/style.sass */
 body {
   font-family: 'Roboto';
   background: #41442C;
   color: #fff;
   padding: 40px 92px;
+  margin: 0 auto;
 }
 
-/* line 15, E:/pottery/sass/style.sass */
+/* line 23, E:/pottery/sass/style.sass */
 a {
   text-decoration: none;
   color: #F2F1EE;
 }
 
-/* line 19, E:/pottery/sass/style.sass */
+/* line 27, E:/pottery/sass/style.sass */
 .container {
   max-width: 1366px;
 }
 
-/* line 21, E:/pottery/sass/style.sass */
+/* line 29, E:/pottery/sass/style.sass */
 .header {
   display: flex;
   justify-content: space-between;
 }
 
-/* line 24, E:/pottery/sass/style.sass */
+/* line 32, E:/pottery/sass/style.sass */
 .logo {
   display: flex;
   align-items: center;
@@ -43,31 +51,31 @@ a {
   height: 5rem;
 }
 
-/* line 29, E:/pottery/sass/style.sass */
+/* line 37, E:/pottery/sass/style.sass */
 .menu__list {
   display: flex;
   gap: 2rem;
   font-size: 1.6rem;
 }
 
-/* line 33, E:/pottery/sass/style.sass */
+/* line 41, E:/pottery/sass/style.sass */
 .menu__list-item {
   list-style-type: none;
 }
 
-/* line 39, E:/pottery/sass/style.sass */
+/* line 47, E:/pottery/sass/style.sass */
 .menu__btn {
   display: none;
 }
 
-/* line 42, E:/pottery/sass/style.sass */
+/* line 50, E:/pottery/sass/style.sass */
 .lang {
   display: flex;
   align-items: center;
   font-size: 1.6rem;
 }
 
-/* line 46, E:/pottery/sass/style.sass */
+/* line 54, E:/pottery/sass/style.sass */
 .reg {
   display: flex;
   align-items: center;
@@ -76,6 +84,49 @@ a {
   background: #EBD7B2;
   width: 18rem;
   font-size: 1.6rem;
+  height: 4rem;
+}
+
+/* line 63, E:/pottery/sass/style.sass */
+.wrapper {
+  display: flex;
+  height: 61.8rem;
+  box-sizing: border-box;
+  margin-bottom: 90px;
+}
+
+/* line 71, E:/pottery/sass/style.sass */
+.wrapper-left {
+  width: 50%;
+  box-sizing: border-box;
+  padding-left: 9.3rem;
+}
+
+/* line 78, E:/pottery/sass/style.sass */
+.wrapper-right {
+  width: 50%;
+  background-color: #dab8b8;
+}
+
+/* line 82, E:/pottery/sass/style.sass */
+.wrapper__left-title {
+  font-family: "Ashley";
+  font-size: 6rem;
+  padding: 5.3rem 2rem 9.2px 0;
+}
+
+/* line 87, E:/pottery/sass/style.sass */
+.wrapper__left-p {
+  font-size: 1.6rem;
+  padding: 0 0 2rem 0;
+}
+
+/* line 91, E:/pottery/sass/style.sass */
+.wrapper__left-img {
+  border-top-right-radius: 154px;
+  position: absolute;
+  top: 53.5rem;
+  left: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
