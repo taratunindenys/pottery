@@ -148,7 +148,6 @@ a {
 /* line 109, E:/pottery/sass/style.sass */
 .about {
   height: 104rem;
-  border-bottom: 1px solid #76786E;
 }
 
 /* line 113, E:/pottery/sass/style.sass */
@@ -207,7 +206,7 @@ a {
 
 /* line 151, E:/pottery/sass/style.sass */
 .img4 {
-  margin: 3rem 4rem 6rem 40rem;
+  margin: 3rem 4rem 6rem 38rem;
 }
 
 /* line 154, E:/pottery/sass/style.sass */
@@ -221,6 +220,30 @@ a {
   height: 100%;
   width: 50%;
   border-right: 1px solid #76786E;
+}
+
+/* line 163, E:/pottery/sass/style.sass */
+.about-p2 {
+  margin: 8rem 4rem  4rem 0rem;
+}
+
+/* line 166, E:/pottery/sass/style.sass */
+.about-p3 {
+  margin: 0rem 9rem  0rem 0rem;
+}
+
+/* line 168, E:/pottery/sass/style.sass */
+.about-p4 {
+  margin: 26rem 0rem  0rem 1rem;
+  width: 80%;
+}
+
+/* line 172, E:/pottery/sass/style.sass */
+.about__bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.6rem;
 }
 
 /*# sourceMappingURL=style.css.map */
