@@ -34,7 +34,7 @@ a {
 
 /* line 28, E:/pottery/sass/style.sass */
 .container {
-  max-width: 1600px;
+  max-width: 1366px;
 }
 
 /* line 31, E:/pottery/sass/style.sass */
@@ -179,11 +179,12 @@ a {
   font-size: 4.8rem;
   text-align: right;
   height: 100%;
+  font-weight: normal;
   margin: 0;
   padding: 17rem 2rem 9rem 0;
 }
 
-/* line 137, E:/pottery/sass/style.sass */
+/* line 138, E:/pottery/sass/style.sass */
 .about-wrapper__middlel {
   display: flex;
   height: 55%;
@@ -191,61 +192,61 @@ a {
   border-bottom: 1px solid #76786E;
 }
 
-/* line 142, E:/pottery/sass/style.sass */
+/* line 143, E:/pottery/sass/style.sass */
 .about__middlel-left {
   width: 50%;
   height: 100%;
   border-right: 1px solid #76786E;
 }
 
-/* line 146, E:/pottery/sass/style.sass */
+/* line 147, E:/pottery/sass/style.sass */
 .about__middlel-right {
   display: flex;
   width: 50%;
   height: 100%;
 }
 
-/* line 152, E:/pottery/sass/style.sass */
+/* line 153, E:/pottery/sass/style.sass */
 .img4 {
   margin: 3rem 4rem 6rem 38rem;
 }
 
-/* line 155, E:/pottery/sass/style.sass */
+/* line 156, E:/pottery/sass/style.sass */
 .about-p {
   margin: 18rem 20rem 0 0;
   height: 10rem;
 }
 
-/* line 159, E:/pottery/sass/style.sass */
+/* line 160, E:/pottery/sass/style.sass */
 .about__middlel-right1 {
   height: 100%;
   width: 35%;
   border-right: 1px solid #76786E;
 }
 
-/* line 164, E:/pottery/sass/style.sass */
+/* line 165, E:/pottery/sass/style.sass */
 .about__middlel-right2 {
   height: 100%;
   width: 65%;
 }
 
-/* line 169, E:/pottery/sass/style.sass */
+/* line 170, E:/pottery/sass/style.sass */
 .about-p2 {
   margin: 8rem 4rem  4rem 0rem;
 }
 
-/* line 172, E:/pottery/sass/style.sass */
+/* line 173, E:/pottery/sass/style.sass */
 .about-p3 {
   margin: 0rem 9rem  0rem 0rem;
 }
 
-/* line 174, E:/pottery/sass/style.sass */
+/* line 175, E:/pottery/sass/style.sass */
 .about-p4 {
   margin: 26rem 0rem  0rem 1rem;
   width: 80%;
 }
 
-/* line 178, E:/pottery/sass/style.sass */
+/* line 179, E:/pottery/sass/style.sass */
 .about__bottom {
   box-sizing: border-box;
   height: 15%;
@@ -257,13 +258,13 @@ a {
   border-bottom: 1px solid #76786E;
 }
 
-/* line 188, E:/pottery/sass/style.sass */
+/* line 189, E:/pottery/sass/style.sass */
 .about__bottom span {
   font-size: 4.8rem;
   font-family: 'Ashley';
 }
 
-/* line 192, E:/pottery/sass/style.sass */
+/* line 193, E:/pottery/sass/style.sass */
 .about__bottom-box1 {
   box-sizing: border-box;
   height: 100%;
@@ -272,7 +273,7 @@ a {
   border-right: 1px solid #76786E;
 }
 
-/* line 200, E:/pottery/sass/style.sass */
+/* line 201, E:/pottery/sass/style.sass */
 .about__bottom-box2 {
   box-sizing: border-box;
   height: 100%;
@@ -280,7 +281,7 @@ a {
   padding: 3rem 0;
 }
 
-/* line 206, E:/pottery/sass/style.sass */
+/* line 207, E:/pottery/sass/style.sass */
 .about__bottom-box3 {
   box-sizing: border-box;
   height: 100%;
@@ -289,7 +290,7 @@ a {
   border-left: 1px solid #76786E;
 }
 
-/* line 213, E:/pottery/sass/style.sass */
+/* line 214, E:/pottery/sass/style.sass */
 .img5 {
   position: absolute;
   top: 18rem;
@@ -298,13 +299,85 @@ a {
   border-bottom-left-radius: 5rem;
 }
 
-/* line 219, E:/pottery/sass/style.sass */
+/* line 220, E:/pottery/sass/style.sass */
 .img6 {
   position: absolute;
   top: 18rem;
   height: 62.3rem;
   left: 0;
   border-bottom-right-radius: 20.2rem;
+}
+
+/* line 227, E:/pottery/sass/style.sass */
+.third {
+  max-height: 104rem;
+}
+
+/* line 229, E:/pottery/sass/style.sass */
+.third-wrapper {
+  display: flex;
+}
+
+/* line 232, E:/pottery/sass/style.sass */
+.third__wrapper-left {
+  width: 67.51%;
+}
+
+/* line 237, E:/pottery/sass/style.sass */
+.third__wrapper-right {
+  width: 32%;
+  height: 104rem;
+  border-left: 1px solid #76786E;
+}
+
+/* line 244, E:/pottery/sass/style.sass */
+.third__day1-h2 {
+  box-sizing: border-box;
+  font-family: "Ashley";
+  font-size: 4.8rem;
+  font-weight: normal;
+  height: 100%;
+  padding: 12rem 0rem 0 4rem;
+}
+
+/* line 252, E:/pottery/sass/style.sass */
+.day1-text {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #76786E;
+}
+
+/* line 257, E:/pottery/sass/style.sass */
+.day1-text1 {
+  font-size: 4.8rem;
+  font-family: 'Ashley';
+  color: #CEC7B2;
+  margin: 4.8rem 0;
+}
+
+/* line 263, E:/pottery/sass/style.sass */
+.day1-text2 {
+  font-size: 1.6rem;
+  max-width: 24rem;
+  margin: 4.8rem 0;
+}
+
+/* line 267, E:/pottery/sass/style.sass */
+.day1-text3 {
+  font-size: 1.6rem;
+  max-width: 34rem;
+  margin: 4.8rem 0;
+}
+
+/* line 271, E:/pottery/sass/style.sass */
+.third__photo-box {
+  width: 100%;
+  margin: 8rem 0;
+}
+
+/* line 275, E:/pottery/sass/style.sass */
+.thir__photo-item {
+  height: 33.44rem;
 }
 
 /*# sourceMappingURL=style.css.map */
