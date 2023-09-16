@@ -394,23 +394,58 @@ a {
   display: flex;
 }
 
-/* line 288, E:/pottery/sass/style.sass */
+/* line 289, E:/pottery/sass/style.sass */
 .third__end-left {
   width: 67.51%;
   border-bottom: 1px solid #76786E;
 }
 
-/* line 291, E:/pottery/sass/style.sass */
+/* line 293, E:/pottery/sass/style.sass */
 .third__end-right {
   width: 32%;
   border-bottom: 1px solid #76786E;
   border-left: 1px solid #76786E;
 }
 
-/* line 295, E:/pottery/sass/style.sass */
+/* line 297, E:/pottery/sass/style.sass */
 .advantage-h2 {
   padding: 14rem 0 0 4rem;
   text-align-last: left;
+}
+
+/* line 301, E:/pottery/sass/style.sass */
+.advantage__bottom {
+  display: flex;
+  font-size: 1.6rem;
+  border-bottom: 1px solid #76786E;
+  box-sizing: border-box;
+}
+
+/* line 308, E:/pottery/sass/style.sass */
+.advantage-box {
+  width: 20%;
+  border-right: 1px solid #76786E;
+  box-sizing: border-box;
+  padding: 3rem;
+}
+
+/* line 315, E:/pottery/sass/style.sass */
+.advantage-box:last-child {
+  width: 33.62%;
+  border-right: none;
+}
+
+/* line 318, E:/pottery/sass/style.sass */
+.advantage-box:first-child {
+  width: 30%;
+  border-right: 1px solid #76786E;
+}
+
+/* line 321, E:/pottery/sass/style.sass */
+.advantage-box span {
+  font-size: 4.8rem;
+  font-family: 'Ashley';
+  color: #CEC7B2;
 }
 
 /*# sourceMappingURL=style.css.map */
