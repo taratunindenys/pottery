@@ -1,178 +1,11 @@
-@font-face {
-  font-family: 'Ashley';
-  src: url("../fonts/AshleyCapitaliSofia.otf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
-
-/* line 8, E:/pottery/sass/style.sass */
-*, ::after, ::befor {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* line 14, E:/pottery/sass/style.sass */
-html {
-  font-size: 62.5%;
-}
-
-/* line 18, E:/pottery/sass/style.sass */
-body {
-  font-family: 'Roboto';
-  background: #41442C;
-  color: #fff;
-  padding: 40px 92px;
-  margin: 0 auto;
-}
-
-/* line 24, E:/pottery/sass/style.sass */
-a {
-  text-decoration: none;
-  color: #F2F1EE;
-}
-
-/* line 28, E:/pottery/sass/style.sass */
-.container {
-  max-width: 1366px;
-}
-
-/* line 31, E:/pottery/sass/style.sass */
-.header {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 0 4rem 9.3rem;
-}
-
-/* line 35, E:/pottery/sass/style.sass */
-.logo {
-  display: flex;
-  align-items: center;
-  width: 18rem;
-  height: 5rem;
-}
-
-/* line 40, E:/pottery/sass/style.sass */
-.menu__list {
-  display: flex;
-  gap: 2rem;
-  font-size: 1.6rem;
-}
-
-/* line 44, E:/pottery/sass/style.sass */
-.menu__list-item {
-  list-style-type: none;
-}
-
-/* line 50, E:/pottery/sass/style.sass */
-.menu__btn {
-  display: none;
-}
-
-/* line 53, E:/pottery/sass/style.sass */
-.lang {
-  display: flex;
-  align-items: center;
-  font-size: 1.6rem;
-}
-
-/* line 57, E:/pottery/sass/style.sass */
-.reg {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #2F2C22;
-  background: #EBD7B2;
-  width: 18rem;
-  font-size: 1.6rem;
-  height: 4rem;
-}
-
-/* line 66, E:/pottery/sass/style.sass */
-.wrapper {
-  display: flex;
-  height: 62rem;
-  box-sizing: border-box;
-  border-bottom: 1px solid #76786E;
-}
-
-/* line 74, E:/pottery/sass/style.sass */
-.wrapper-left {
-  width: 50%;
-  box-sizing: border-box;
-  padding-left: 9.3rem;
-  position: relative;
-}
-
-/* line 82, E:/pottery/sass/style.sass */
-.wrapper-right {
-  width: 50%;
-}
-
-/* line 87, E:/pottery/sass/style.sass */
+/* line 1, E:/pottery/sass/_text.sass */
 .main-title {
   font-family: "Ashley";
   font-size: 6rem;
   padding: 5.3rem 2rem 9.2px 0;
 }
 
-/* line 92, E:/pottery/sass/style.sass */
-.main-p {
-  font-size: 1.6rem;
-}
-
-/* line 95, E:/pottery/sass/style.sass */
-.wrapper__left-p {
-  padding: 0 0 2rem 0;
-}
-
-/* line 98, E:/pottery/sass/style.sass */
-.wrapper__left-img {
-  border-radius: 0 154px 0 0;
-  position: absolute;
-  top: 43.6rem;
-  left: 0;
-}
-
-/* line 104, E:/pottery/sass/style.sass */
-.right-img1 {
-  border-radius: 154px  0 154px 0;
-  margin-right: 1rem;
-}
-
-/* line 107, E:/pottery/sass/style.sass */
-.right-img2 {
-  border-radius: 0 154px  0 154px;
-}
-
-/* line 110, E:/pottery/sass/style.sass */
-.about {
-  position: relative;
-  height: 80rem;
-}
-
-/* line 114, E:/pottery/sass/style.sass */
-.about-top {
-  display: flex;
-  height: 30%;
-}
-
-/* line 117, E:/pottery/sass/style.sass */
-.about__top-left {
-  width: 50%;
-  height: 100%;
-  border-bottom: 1px solid #76786E;
-}
-
-/* line 122, E:/pottery/sass/style.sass */
-.about__top-right {
-  width: 50%;
-  height: 100%;
-  border-bottom: 1px solid #76786E;
-  border-left: 1px solid #76786E;
-}
-
-/* line 129, E:/pottery/sass/style.sass */
+/* line 6, E:/pottery/sass/_text.sass */
 .title-h2 {
   box-sizing: border-box;
   font-family: "Ashley";
@@ -184,7 +17,185 @@ a {
   padding: 17rem 2rem 9rem 0;
 }
 
-/* line 138, E:/pottery/sass/style.sass */
+/* line 16, E:/pottery/sass/_text.sass */
+.span-fw-500 {
+  font-weight: 500;
+}
+
+/* line 19, E:/pottery/sass/_text.sass */
+.advantage-h2 {
+  padding: 14rem 0 0 4rem;
+  text-align-last: left;
+}
+
+@font-face {
+  font-family: 'Ashley';
+  src: url("../fonts/AshleyCapitaliSofia.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* line 10, E:/pottery/sass/style.sass */
+*, ::after, ::befor {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 16, E:/pottery/sass/style.sass */
+html {
+  font-size: 62.5%;
+}
+
+/* line 20, E:/pottery/sass/style.sass */
+body {
+  font-family: 'Roboto';
+  background: #41442C;
+  color: #fff;
+  padding: 40px 92px;
+  margin: 0 auto;
+}
+
+/* line 26, E:/pottery/sass/style.sass */
+a {
+  text-decoration: none;
+  color: #F2F1EE;
+}
+
+/* line 30, E:/pottery/sass/style.sass */
+.container {
+  max-width: 1366px;
+}
+
+/* line 33, E:/pottery/sass/style.sass */
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 4rem 9.3rem;
+}
+
+/* line 37, E:/pottery/sass/style.sass */
+.logo {
+  display: flex;
+  align-items: center;
+  width: 18rem;
+  height: 5rem;
+}
+
+/* line 42, E:/pottery/sass/style.sass */
+.menu__list {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.6rem;
+}
+
+/* line 46, E:/pottery/sass/style.sass */
+.menu__list-item {
+  list-style-type: none;
+}
+
+/* line 52, E:/pottery/sass/style.sass */
+.menu__btn {
+  display: none;
+}
+
+/* line 55, E:/pottery/sass/style.sass */
+.lang {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+/* line 59, E:/pottery/sass/style.sass */
+.reg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2F2C22;
+  background: #EBD7B2;
+  width: 18rem;
+  font-size: 1.6rem;
+  height: 4rem;
+}
+
+/* line 68, E:/pottery/sass/style.sass */
+.wrapper {
+  display: flex;
+  height: 62rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #76786E;
+}
+
+/* line 76, E:/pottery/sass/style.sass */
+.wrapper-left {
+  width: 50%;
+  box-sizing: border-box;
+  padding-left: 9.3rem;
+  position: relative;
+}
+
+/* line 84, E:/pottery/sass/style.sass */
+.wrapper-right {
+  width: 50%;
+}
+
+/* line 91, E:/pottery/sass/style.sass */
+.main-p {
+  font-size: 1.6rem;
+}
+
+/* line 94, E:/pottery/sass/style.sass */
+.wrapper__left-p {
+  padding: 0 0 2rem 0;
+}
+
+/* line 97, E:/pottery/sass/style.sass */
+.wrapper__left-img {
+  border-radius: 0 154px 0 0;
+  position: absolute;
+  top: 43.6rem;
+  left: 0;
+}
+
+/* line 103, E:/pottery/sass/style.sass */
+.right-img1 {
+  border-radius: 154px  0 154px 0;
+  margin-right: 1rem;
+}
+
+/* line 106, E:/pottery/sass/style.sass */
+.right-img2 {
+  border-radius: 0 154px  0 154px;
+}
+
+/* line 109, E:/pottery/sass/style.sass */
+.about {
+  position: relative;
+  height: 80rem;
+}
+
+/* line 113, E:/pottery/sass/style.sass */
+.about-top {
+  display: flex;
+  height: 30%;
+}
+
+/* line 116, E:/pottery/sass/style.sass */
+.about__top-left {
+  width: 50%;
+  height: 100%;
+  border-bottom: 1px solid #76786E;
+}
+
+/* line 121, E:/pottery/sass/style.sass */
+.about__top-right {
+  width: 50%;
+  height: 100%;
+  border-bottom: 1px solid #76786E;
+  border-left: 1px solid #76786E;
+}
+
+/* line 129, E:/pottery/sass/style.sass */
 .about-wrapper__middlel {
   display: flex;
   height: 55%;
@@ -192,61 +203,61 @@ a {
   border-bottom: 1px solid #76786E;
 }
 
-/* line 143, E:/pottery/sass/style.sass */
+/* line 134, E:/pottery/sass/style.sass */
 .about__middlel-left {
   width: 50%;
   height: 100%;
   border-right: 1px solid #76786E;
 }
 
-/* line 147, E:/pottery/sass/style.sass */
+/* line 138, E:/pottery/sass/style.sass */
 .about__middlel-right {
   display: flex;
   width: 50%;
   height: 100%;
 }
 
-/* line 153, E:/pottery/sass/style.sass */
+/* line 144, E:/pottery/sass/style.sass */
 .img4 {
   margin: 3rem 4rem 6rem 38rem;
 }
 
-/* line 156, E:/pottery/sass/style.sass */
+/* line 147, E:/pottery/sass/style.sass */
 .about-p {
   margin: 18rem 20rem 0 0;
   height: 10rem;
 }
 
-/* line 160, E:/pottery/sass/style.sass */
+/* line 151, E:/pottery/sass/style.sass */
 .about__middlel-right1 {
   height: 100%;
   width: 35%;
   border-right: 1px solid #76786E;
 }
 
-/* line 165, E:/pottery/sass/style.sass */
+/* line 156, E:/pottery/sass/style.sass */
 .about__middlel-right2 {
   height: 100%;
   width: 65%;
 }
 
-/* line 170, E:/pottery/sass/style.sass */
+/* line 161, E:/pottery/sass/style.sass */
 .about-p2 {
   margin: 8rem 4rem  4rem 0rem;
 }
 
-/* line 173, E:/pottery/sass/style.sass */
+/* line 164, E:/pottery/sass/style.sass */
 .about-p3 {
   margin: 0rem 9rem  0rem 0rem;
 }
 
-/* line 175, E:/pottery/sass/style.sass */
+/* line 166, E:/pottery/sass/style.sass */
 .about-p4 {
   margin: 26rem 0rem  0rem 1rem;
   width: 80%;
 }
 
-/* line 179, E:/pottery/sass/style.sass */
+/* line 170, E:/pottery/sass/style.sass */
 .about__bottom {
   box-sizing: border-box;
   height: 15%;
@@ -258,13 +269,13 @@ a {
   border-bottom: 1px solid #76786E;
 }
 
-/* line 189, E:/pottery/sass/style.sass */
+/* line 180, E:/pottery/sass/style.sass */
 .about__bottom span {
   font-size: 4.8rem;
   font-family: 'Ashley';
 }
 
-/* line 193, E:/pottery/sass/style.sass */
+/* line 184, E:/pottery/sass/style.sass */
 .about__bottom-box1 {
   box-sizing: border-box;
   height: 100%;
@@ -273,7 +284,7 @@ a {
   border-right: 1px solid #76786E;
 }
 
-/* line 201, E:/pottery/sass/style.sass */
+/* line 192, E:/pottery/sass/style.sass */
 .about__bottom-box2 {
   box-sizing: border-box;
   height: 100%;
@@ -281,7 +292,7 @@ a {
   padding: 3rem 0;
 }
 
-/* line 207, E:/pottery/sass/style.sass */
+/* line 198, E:/pottery/sass/style.sass */
 .about__bottom-box3 {
   box-sizing: border-box;
   height: 100%;
@@ -290,7 +301,7 @@ a {
   border-left: 1px solid #76786E;
 }
 
-/* line 214, E:/pottery/sass/style.sass */
+/* line 205, E:/pottery/sass/style.sass */
 .img5 {
   position: absolute;
   top: 18rem;
@@ -299,7 +310,7 @@ a {
   border-bottom-left-radius: 5rem;
 }
 
-/* line 220, E:/pottery/sass/style.sass */
+/* line 211, E:/pottery/sass/style.sass */
 .img6 {
   position: absolute;
   top: 18rem;
@@ -308,29 +319,29 @@ a {
   border-bottom-right-radius: 20.2rem;
 }
 
-/* line 227, E:/pottery/sass/style.sass */
+/* line 218, E:/pottery/sass/style.sass */
 .third {
   max-height: 100rem;
 }
 
-/* line 229, E:/pottery/sass/style.sass */
+/* line 220, E:/pottery/sass/style.sass */
 .third-wrapper {
   display: flex;
 }
 
-/* line 232, E:/pottery/sass/style.sass */
+/* line 223, E:/pottery/sass/style.sass */
 .third__wrapper-left {
   width: 67.51%;
 }
 
-/* line 237, E:/pottery/sass/style.sass */
+/* line 228, E:/pottery/sass/style.sass */
 .third__wrapper-right {
   width: 32%;
   border-left: 1px solid #76786E;
   position: relative;
 }
 
-/* line 245, E:/pottery/sass/style.sass */
+/* line 236, E:/pottery/sass/style.sass */
 .third__day1-h2 {
   box-sizing: border-box;
   font-family: "Ashley";
@@ -340,14 +351,14 @@ a {
   padding: 12rem 0rem 0 4rem;
 }
 
-/* line 253, E:/pottery/sass/style.sass */
+/* line 244, E:/pottery/sass/style.sass */
 .day1-text {
   display: flex;
   justify-content: space-evenly;
   border-bottom: 1px solid #76786E;
 }
 
-/* line 258, E:/pottery/sass/style.sass */
+/* line 249, E:/pottery/sass/style.sass */
 .day1-text1 {
   font-size: 4.8rem;
   font-family: 'Ashley';
@@ -355,32 +366,32 @@ a {
   margin: 4.8rem 0;
 }
 
-/* line 264, E:/pottery/sass/style.sass */
+/* line 255, E:/pottery/sass/style.sass */
 .day1-text2 {
   font-size: 1.6rem;
   max-width: 24rem;
   margin: 4.8rem 0;
 }
 
-/* line 268, E:/pottery/sass/style.sass */
+/* line 259, E:/pottery/sass/style.sass */
 .day1-text3 {
   font-size: 1.6rem;
   max-width: 34rem;
   margin: 4.8rem 0;
 }
 
-/* line 272, E:/pottery/sass/style.sass */
+/* line 263, E:/pottery/sass/style.sass */
 .third__photo-box {
   width: 100%;
   margin: 8rem 0;
 }
 
-/* line 276, E:/pottery/sass/style.sass */
+/* line 267, E:/pottery/sass/style.sass */
 .thir__photo-item {
   height: 32.695rem;
 }
 
-/* line 279, E:/pottery/sass/style.sass */
+/* line 270, E:/pottery/sass/style.sass */
 .img7 {
   position: absolute;
   top: 16rem;
@@ -389,31 +400,25 @@ a {
   width: 100%;
 }
 
-/* line 286, E:/pottery/sass/style.sass */
+/* line 277, E:/pottery/sass/style.sass */
 .third-end {
   display: flex;
 }
 
-/* line 289, E:/pottery/sass/style.sass */
+/* line 280, E:/pottery/sass/style.sass */
 .third__end-left {
   width: 67.51%;
   border-bottom: 1px solid #76786E;
 }
 
-/* line 293, E:/pottery/sass/style.sass */
+/* line 284, E:/pottery/sass/style.sass */
 .third__end-right {
   width: 32%;
   border-bottom: 1px solid #76786E;
   border-left: 1px solid #76786E;
 }
 
-/* line 297, E:/pottery/sass/style.sass */
-.advantage-h2 {
-  padding: 14rem 0 0 4rem;
-  text-align-last: left;
-}
-
-/* line 301, E:/pottery/sass/style.sass */
+/* line 290, E:/pottery/sass/style.sass */
 .advantage__bottom {
   display: flex;
   font-size: 1.6rem;
@@ -421,7 +426,7 @@ a {
   box-sizing: border-box;
 }
 
-/* line 308, E:/pottery/sass/style.sass */
+/* line 297, E:/pottery/sass/style.sass */
 .advantage-box {
   width: 20%;
   border-right: 1px solid #76786E;
@@ -429,23 +434,47 @@ a {
   padding: 3rem;
 }
 
-/* line 315, E:/pottery/sass/style.sass */
+/* line 304, E:/pottery/sass/style.sass */
 .advantage-box:last-child {
   width: 33.62%;
   border-right: none;
 }
 
-/* line 318, E:/pottery/sass/style.sass */
+/* line 307, E:/pottery/sass/style.sass */
 .advantage-box:first-child {
   width: 30%;
   border-right: 1px solid #76786E;
 }
 
-/* line 321, E:/pottery/sass/style.sass */
+/* line 310, E:/pottery/sass/style.sass */
 .advantage-box span {
   font-size: 4.8rem;
   font-family: 'Ashley';
   color: #CEC7B2;
+}
+
+/* line 316, E:/pottery/sass/style.sass */
+.whom-top {
+  display: flex;
+  border-bottom: 1px solid #76786E;
+  height: 50rem;
+}
+
+/* line 320, E:/pottery/sass/style.sass */
+.whom-bot {
+  display: flex;
+  height: 15rem;
+}
+
+/* line 323, E:/pottery/sass/style.sass */
+.side-left {
+  width: 67.5%;
+  border-right: 1px solid #76786E;
+}
+
+/* line 326, E:/pottery/sass/style.sass */
+.side-right {
+  height: 50rem;
 }
 
 /*# sourceMappingURL=style.css.map */
