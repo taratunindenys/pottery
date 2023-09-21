@@ -1,12 +1,9 @@
-@import "text.sass"
-    
-@font-face 
-    font-family: 'Ashley'
-    src: url("../fonts/AshleyCapitaliSofia.otf") format("truetype")
-    font-style: normal
-    font-weight: normal
 
-    
+
+@import "variables.sass"
+@import "text.sass"
+@import "buttons.sass"
+@import "img.sass"
 *, ::after, ::befor    
     margin: 0
     padding: 0
@@ -19,13 +16,13 @@ html
 
 body 
     font-family: 'Roboto'
-    background: #41442C
-    color: #fff
+    background: $color-bg
+    color: $color-wite1
     padding: 40px 92px
     margin: 0 auto
 a 
     text-decoration: none
-    color: #F2F1EE
+    color: $color-wite2
     
 .container 
     max-width: 1366px
@@ -34,44 +31,21 @@ a
     display: flex
     justify-content: space-between
     margin:  0 0 4rem 9.3rem
-.logo
-    display: flex
-    align-items: center
-    width: 18rem
-    height: 5rem
+
 .menu__list
     display: flex
     gap: 2rem
-    font-size: 1.6rem
+    font-size: $fz-main
 .menu__list-item
     list-style-type: none
 
 .menu__list-link 
     
-
-.menu__btn 
-    display: none
-
-.lang
-    display: flex
-    align-items: center
-    font-size: 1.6rem
-.reg 
-    display: flex
-    align-items: center
-    justify-content: center
-    color: #2F2C22
-    background: #EBD7B2
-    width: 18rem
-    font-size: 1.6rem
-    height: 4rem
 .wrapper
     display: flex
     height: 62rem
     box-sizing: border-box
-    border-bottom: 1px solid #76786E
-
-
+    border-bottom: $border
 
 .wrapper-left 
     width: 50%
@@ -79,17 +53,8 @@ a
     padding-left: 9.3rem
     position: relative
 
-
-
 .wrapper-right 
     width: 50%
-
-
-
-
-
-.main-p
-    font-size: 1.6rem
 
 .wrapper__left-p
     padding: 0 0 2rem 0
@@ -100,11 +65,6 @@ a
     top: 43.6rem
     left: 0
     
-.right-img1
-    border-radius: 154px  0 154px 0
-    margin-right: 1rem
-.right-img2
-    border-radius: 0 154px  0 154px 
 
 .about 
     position: relative
@@ -116,34 +76,30 @@ a
 .about__top-left
     width: 50%
     height: 100%
-    border-bottom: 1px solid #76786E
+    border-bottom: $border
 
 .about__top-right
     width: 50%
     height: 100%
-    border-bottom: 1px solid #76786E
-    border-left: 1px solid #76786E
-
-
+    border-bottom: $border
+    border-left: $border
 
 .about-wrapper__middlel
     display: flex
     height: 55%
     height: 44.2rem
-    border-bottom: 1px solid #76786E
+    border-bottom: $border
 .about__middlel-left
     width: 50%
     height: 100%
-    border-right: 1px solid #76786E
+    border-right: $border
 .about__middlel-right
     display: flex
     width: 50%
     height: 100%
     
 
-.img4 
-    margin: 3rem 4rem 6rem 38rem
-    
+
 .about-p 
     margin: 18rem 20rem 0 0
     height: 10rem
@@ -151,7 +107,7 @@ a
 .about__middlel-right1
     height: 100%
     width: 35%
-    border-right: 1px solid #76786E
+    border-right: $border
 
 .about__middlel-right2
     height: 100%
@@ -173,20 +129,18 @@ a
     max-width: 1366px
     display: flex
     justify-content: space-evenly
-    font-size: 1.6rem
-    color: #CEC7B2
-    border-bottom: 1px solid #76786E
+    font-size: $fz-main
+    color: $color-text2
+    border-bottom: $border
 
-.about__bottom span
-    font-size: 4.8rem
-    font-family: 'Ashley'
+
 
 .about__bottom-box1
     box-sizing: border-box
     height: 100%
     width: 50%
     padding: 3rem   15rem 0 36rem
-    border-right: 1px solid #76786E
+    border-right: $border
     
 
 .about__bottom-box2
@@ -200,20 +154,9 @@ a
     height: 100%
     width: 32.5%
     padding: 3rem 0 0 1rem
-    border-left: 1px solid #76786E
+    border-left: $border
 
-.img5
-    position: absolute
-    top: 18rem
-    right: 0
-    height: 47.8rem
-    border-bottom-left-radius: 5rem
-.img6
-    position: absolute
-    top: 18rem
-    height: 62.3rem
-    left: 0
-    border-bottom-right-radius: 20.2rem
+
     
 .third
     max-height: 100rem   
@@ -228,38 +171,12 @@ a
 .third__wrapper-right
     width: 32%
     // height: 102rem 
-    border-left: 1px solid #76786E
+    border-left: $border
     position: relative
 
 .third-day1
 .third-day2
-.third__day1-h2
-    box-sizing: border-box
-    font-family: "Ashley"
-    font-size: 4.8rem
-    font-weight: normal
-    height: 100%
-    padding: 12rem 0rem 0 4rem
 
-.day1-text 
-    display: flex
-    justify-content: space-evenly
-    border-bottom: 1px solid #76786E
-
-.day1-text1
-    font-size: 4.8rem
-    font-family: 'Ashley'
-    color: #CEC7B2
-    margin: 4.8rem 0
-
-.day1-text2
-    font-size: 1.6rem
-    max-width: 24rem
-    margin: 4.8rem 0
-.day1-text3
-    font-size: 1.6rem
-    max-width: 34rem
-    margin: 4.8rem 0
 .third__photo-box
     width: 100%
     margin: 8rem 0 
@@ -267,36 +184,31 @@ a
 .thir__photo-item
     height: 32.695rem
 
-.img7 
-    position: absolute
-    top: 16rem
-    right: -2
-    border-top-left-radius: 150px
-    width: 100%
+
 
 .third-end
     display: flex
     
 .third__end-left
     width: 67.51%
-    border-bottom: 1px solid #76786E
+    border-bottom: $border
     
 .third__end-right
     width: 32%
-    border-bottom: 1px solid #76786E
-    border-left: 1px solid #76786E
+    border-bottom: $border
+    border-left: $border
 
 // переваги
 .advantage__bottom
     display: flex
-    font-size: 1.6rem
-    border-bottom: 1px solid #76786E
+    font-size: $fz-main
+    border-bottom: $border
     
     box-sizing: border-box
     
 .advantage-box
     width: 20%
-    border-right: 1px solid #76786E
+    border-right: $border
     box-sizing: border-box
     padding: 3rem
 
@@ -306,22 +218,27 @@ a
         border-right: none
     &:first-child
         width: 30%
-        border-right: 1px solid #76786E
+        border-right: $border
 .advantage-box span
-    font-size: 4.8rem
+    font-size: $fz-h2
     font-family: 'Ashley'
-    color: #CEC7B2
+    color: $color-text2
 
-.whom 
+.whom
+    position: relative
     &-top
         display: flex
-        border-bottom: 1px solid #76786E
+        border-bottom: $border
         height: 50rem
     &-bot
         display: flex
         height: 15rem
 .side-left
     width: 67.5%
-    border-right: 1px solid #76786E
+    border-right: $border
 .side-right
     height: 50rem
+.tariff
+    display: flex
+    height: 66rem
+    background: #777
