@@ -239,6 +239,59 @@ a
 .side-right
     height: 50rem
 .tariff
+    position: relative
     display: flex
     height: 66rem
-    background: #777
+    &__wrapper
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        display: flex
+        justify-content: space-evenly
+        gap: 30px
+        
+
+.card-box
+    width: 34rem
+    height: 59rem
+    border: 2px solid $color-wite2
+    text-align: center
+    background: $color-bg
+    &__list
+        list-style-type: none
+        font-size: 1.8rem
+        font-weight: regular
+        margin-bottom: 4rem
+    &__list li
+        margin-bottom: 1rem
+        text-align: left
+.price
+    font-size: 3rem
+    font-weight: bold
+    margin-bottom: 4rem
+.card-box div
+    margin-left: 50%
+    transform: translate(-50%, -50%)
+.card-box2
+    border: none
+    background: #D4CCBF
+    color: $color-reg1-text
+.footer 
+    height: 20rem
+    display: flex
+    margin: 0 2.4rem 3.2rem 0
+    &_left
+        display: flex
+        margin: 3rem 42rem 2rem 2rem
+        &_l
+            margin-right: 22rem
+    &_right
+        margin: 3rem 2rem
+.menu__list-footer
+    font-size: $fz-main
+    margin: 0
+.menu__list-footer li
+    margin-bottom: 1rem
+.social
+    margin-bottom: 3rem
