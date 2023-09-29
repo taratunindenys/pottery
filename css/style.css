@@ -167,21 +167,23 @@
 
 /* line 9, E:/pottery/sass/_img.sass */
 .right-img1 {
+  height: 60rem;
   border-radius: 154px  0 154px 0;
   margin-right: 1rem;
 }
 
-/* line 12, E:/pottery/sass/_img.sass */
+/* line 13, E:/pottery/sass/_img.sass */
 .right-img2 {
+  height: 48rem;
   border-radius: 0 154px  0 154px;
 }
 
-/* line 14, E:/pottery/sass/_img.sass */
+/* line 16, E:/pottery/sass/_img.sass */
 .img4 {
   margin: 3rem 4rem 6rem 38rem;
 }
 
-/* line 16, E:/pottery/sass/_img.sass */
+/* line 18, E:/pottery/sass/_img.sass */
 .img5 {
   position: absolute;
   top: 18rem;
@@ -190,7 +192,7 @@
   border-bottom-left-radius: 5rem;
 }
 
-/* line 22, E:/pottery/sass/_img.sass */
+/* line 24, E:/pottery/sass/_img.sass */
 .img6 {
   position: absolute;
   top: 18rem;
@@ -199,7 +201,7 @@
   border-bottom-right-radius: 20.2rem;
 }
 
-/* line 28, E:/pottery/sass/_img.sass */
+/* line 30, E:/pottery/sass/_img.sass */
 .img7 {
   position: absolute;
   top: 16rem;
@@ -208,7 +210,7 @@
   width: 100%;
 }
 
-/* line 35, E:/pottery/sass/_img.sass */
+/* line 37, E:/pottery/sass/_img.sass */
 .img11 {
   position: absolute;
   top: 12rem;
@@ -217,19 +219,45 @@
   border-bottom-right-radius: 10rem;
 }
 
-/* line 7, E:/pottery/sass/style.sass */
+@media (max-width: 1260px) {
+  /* line 2, E:/pottery/sass/_adaptive.sass */
+  .main-title {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  /* line 6, E:/pottery/sass/_adaptive.sass */
+  .menu__list {
+    padding: 0 0 0 2rem;
+  }
+  /* line 8, E:/pottery/sass/_adaptive.sass */
+  .header {
+    margin: 0 0 0 0;
+  }
+  /* line 10, E:/pottery/sass/_adaptive.sass */
+  .wrapper-left {
+    padding-left: 1rem;
+  }
+  /* line 12, E:/pottery/sass/_adaptive.sass */
+  .wrapper__left-img {
+    width: 40rem;
+  }
+}
+
+/* line 9, E:/pottery/sass/style.sass */
 *, ::after, ::befor {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* line 13, E:/pottery/sass/style.sass */
+/* line 15, E:/pottery/sass/style.sass */
 html {
   font-size: 62.5%;
 }
 
-/* line 17, E:/pottery/sass/style.sass */
+/* line 19, E:/pottery/sass/style.sass */
 body {
   font-family: 'Roboto';
   background: #41442C;
@@ -238,37 +266,39 @@ body {
   margin: 0 auto;
 }
 
-/* line 23, E:/pottery/sass/style.sass */
+/* line 26, E:/pottery/sass/style.sass */
 a {
   text-decoration: none;
   color: #F2F1EE;
 }
 
-/* line 27, E:/pottery/sass/style.sass */
+/* line 30, E:/pottery/sass/style.sass */
 .container {
+  box-sizing: border-box;
   max-width: 1366px;
+  margin: 0 auto;
 }
 
-/* line 30, E:/pottery/sass/style.sass */
+/* line 35, E:/pottery/sass/style.sass */
 .header {
   display: flex;
   justify-content: space-between;
   margin: 0 0 4rem 9.3rem;
 }
 
-/* line 35, E:/pottery/sass/style.sass */
+/* line 40, E:/pottery/sass/style.sass */
 .menu__list {
   display: flex;
   gap: 2rem;
   font-size: 1.6rem;
 }
 
-/* line 39, E:/pottery/sass/style.sass */
+/* line 44, E:/pottery/sass/style.sass */
 .menu__list-item {
   list-style-type: none;
 }
 
-/* line 44, E:/pottery/sass/style.sass */
+/* line 49, E:/pottery/sass/style.sass */
 .wrapper {
   display: flex;
   height: 62rem;
@@ -276,7 +306,7 @@ a {
   border-bottom: 1px solid #786e72;
 }
 
-/* line 50, E:/pottery/sass/style.sass */
+/* line 55, E:/pottery/sass/style.sass */
 .wrapper-left {
   width: 50%;
   box-sizing: border-box;
@@ -284,44 +314,54 @@ a {
   position: relative;
 }
 
-/* line 56, E:/pottery/sass/style.sass */
+/* line 61, E:/pottery/sass/style.sass */
 .wrapper-right {
-  width: 50%;
+  box-sizing: border-box;
+  position: relative;
 }
 
-/* line 59, E:/pottery/sass/style.sass */
+/* line 64, E:/pottery/sass/style.sass */
+.wrapper-right-box {
+  display: flex;
+  align-items: end;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 70, E:/pottery/sass/style.sass */
 .wrapper__left-p {
   padding: 0 0 2rem 0;
 }
 
-/* line 62, E:/pottery/sass/style.sass */
+/* line 73, E:/pottery/sass/style.sass */
 .wrapper__left-img {
   border-radius: 0 154px 0 0;
   position: absolute;
-  top: 43.6rem;
+  bottom: 0;
   left: 0;
 }
 
-/* line 69, E:/pottery/sass/style.sass */
+/* line 80, E:/pottery/sass/style.sass */
 .about {
   position: relative;
   height: 80rem;
 }
 
-/* line 73, E:/pottery/sass/style.sass */
+/* line 84, E:/pottery/sass/style.sass */
 .about-top {
   display: flex;
   height: 30%;
 }
 
-/* line 76, E:/pottery/sass/style.sass */
+/* line 87, E:/pottery/sass/style.sass */
 .about__top-left {
   width: 50%;
   height: 100%;
   border-bottom: 1px solid #786e72;
 }
 
-/* line 81, E:/pottery/sass/style.sass */
+/* line 92, E:/pottery/sass/style.sass */
 .about__top-right {
   width: 50%;
   height: 100%;
@@ -329,7 +369,7 @@ a {
   border-left: 1px solid #786e72;
 }
 
-/* line 87, E:/pottery/sass/style.sass */
+/* line 98, E:/pottery/sass/style.sass */
 .about-wrapper__middlel {
   display: flex;
   height: 55%;
@@ -337,56 +377,56 @@ a {
   border-bottom: 1px solid #786e72;
 }
 
-/* line 92, E:/pottery/sass/style.sass */
+/* line 103, E:/pottery/sass/style.sass */
 .about__middlel-left {
   width: 50%;
   height: 100%;
   border-right: 1px solid #786e72;
 }
 
-/* line 96, E:/pottery/sass/style.sass */
+/* line 107, E:/pottery/sass/style.sass */
 .about__middlel-right {
   display: flex;
   width: 50%;
   height: 100%;
 }
 
-/* line 103, E:/pottery/sass/style.sass */
+/* line 114, E:/pottery/sass/style.sass */
 .about-p {
   margin: 18rem 20rem 0 0;
   height: 10rem;
 }
 
-/* line 107, E:/pottery/sass/style.sass */
+/* line 118, E:/pottery/sass/style.sass */
 .about__middlel-right1 {
   height: 100%;
   width: 35%;
   border-right: 1px solid #786e72;
 }
 
-/* line 112, E:/pottery/sass/style.sass */
+/* line 123, E:/pottery/sass/style.sass */
 .about__middlel-right2 {
   height: 100%;
   width: 65%;
 }
 
-/* line 117, E:/pottery/sass/style.sass */
+/* line 128, E:/pottery/sass/style.sass */
 .about-p2 {
   margin: 8rem 4rem  4rem 0rem;
 }
 
-/* line 120, E:/pottery/sass/style.sass */
+/* line 131, E:/pottery/sass/style.sass */
 .about-p3 {
   margin: 0rem 9rem  0rem 0rem;
 }
 
-/* line 122, E:/pottery/sass/style.sass */
+/* line 133, E:/pottery/sass/style.sass */
 .about-p4 {
   margin: 26rem 0rem  0rem 1rem;
   width: 80%;
 }
 
-/* line 126, E:/pottery/sass/style.sass */
+/* line 137, E:/pottery/sass/style.sass */
 .about__bottom {
   box-sizing: border-box;
   height: 15%;
@@ -398,7 +438,7 @@ a {
   border-bottom: 1px solid #786e72;
 }
 
-/* line 138, E:/pottery/sass/style.sass */
+/* line 149, E:/pottery/sass/style.sass */
 .about__bottom-box1 {
   box-sizing: border-box;
   height: 100%;
@@ -407,7 +447,7 @@ a {
   border-right: 1px solid #786e72;
 }
 
-/* line 146, E:/pottery/sass/style.sass */
+/* line 157, E:/pottery/sass/style.sass */
 .about__bottom-box2 {
   box-sizing: border-box;
   height: 100%;
@@ -415,7 +455,7 @@ a {
   padding: 3rem 0;
 }
 
-/* line 152, E:/pottery/sass/style.sass */
+/* line 163, E:/pottery/sass/style.sass */
 .about__bottom-box3 {
   box-sizing: border-box;
   height: 100%;
@@ -424,58 +464,58 @@ a {
   border-left: 1px solid #786e72;
 }
 
-/* line 161, E:/pottery/sass/style.sass */
+/* line 172, E:/pottery/sass/style.sass */
 .third {
   max-height: 100rem;
 }
 
-/* line 163, E:/pottery/sass/style.sass */
+/* line 174, E:/pottery/sass/style.sass */
 .third-wrapper {
   display: flex;
 }
 
-/* line 166, E:/pottery/sass/style.sass */
+/* line 177, E:/pottery/sass/style.sass */
 .third__wrapper-left {
   width: 67.51%;
 }
 
-/* line 171, E:/pottery/sass/style.sass */
+/* line 182, E:/pottery/sass/style.sass */
 .third__wrapper-right {
   width: 32%;
   border-left: 1px solid #786e72;
   position: relative;
 }
 
-/* line 180, E:/pottery/sass/style.sass */
+/* line 191, E:/pottery/sass/style.sass */
 .third__photo-box {
   width: 100%;
   margin: 8rem 0;
 }
 
-/* line 184, E:/pottery/sass/style.sass */
+/* line 195, E:/pottery/sass/style.sass */
 .thir__photo-item {
   height: 32.695rem;
 }
 
-/* line 189, E:/pottery/sass/style.sass */
+/* line 200, E:/pottery/sass/style.sass */
 .third-end {
   display: flex;
 }
 
-/* line 192, E:/pottery/sass/style.sass */
+/* line 203, E:/pottery/sass/style.sass */
 .third__end-left {
   width: 67.51%;
   border-bottom: 1px solid #786e72;
 }
 
-/* line 196, E:/pottery/sass/style.sass */
+/* line 207, E:/pottery/sass/style.sass */
 .third__end-right {
   width: 32%;
   border-bottom: 1px solid #786e72;
   border-left: 1px solid #786e72;
 }
 
-/* line 202, E:/pottery/sass/style.sass */
+/* line 213, E:/pottery/sass/style.sass */
 .advantage__bottom {
   display: flex;
   font-size: 1.6rem;
@@ -483,7 +523,7 @@ a {
   box-sizing: border-box;
 }
 
-/* line 209, E:/pottery/sass/style.sass */
+/* line 220, E:/pottery/sass/style.sass */
 .advantage-box {
   width: 20%;
   border-right: 1px solid #786e72;
@@ -491,62 +531,62 @@ a {
   padding: 3rem;
 }
 
-/* line 216, E:/pottery/sass/style.sass */
+/* line 227, E:/pottery/sass/style.sass */
 .advantage-box:last-child {
   width: 33.62%;
   border-right: none;
 }
 
-/* line 219, E:/pottery/sass/style.sass */
+/* line 230, E:/pottery/sass/style.sass */
 .advantage-box:first-child {
   width: 30%;
   border-right: 1px solid #786e72;
 }
 
-/* line 222, E:/pottery/sass/style.sass */
+/* line 233, E:/pottery/sass/style.sass */
 .advantage-box span {
   font-size: 4.8rem;
   font-family: 'Ashley';
   color: #CEC7B2;
 }
 
-/* line 227, E:/pottery/sass/style.sass */
+/* line 238, E:/pottery/sass/style.sass */
 .whom {
   position: relative;
 }
 
-/* line 229, E:/pottery/sass/style.sass */
+/* line 240, E:/pottery/sass/style.sass */
 .whom-top {
   display: flex;
   border-bottom: 1px solid #786e72;
   height: 50rem;
 }
 
-/* line 233, E:/pottery/sass/style.sass */
+/* line 244, E:/pottery/sass/style.sass */
 .whom-bot {
   display: flex;
   height: 15rem;
 }
 
-/* line 236, E:/pottery/sass/style.sass */
+/* line 247, E:/pottery/sass/style.sass */
 .side-left {
   width: 67.5%;
   border-right: 1px solid #786e72;
 }
 
-/* line 239, E:/pottery/sass/style.sass */
+/* line 250, E:/pottery/sass/style.sass */
 .side-right {
   height: 50rem;
 }
 
-/* line 241, E:/pottery/sass/style.sass */
+/* line 252, E:/pottery/sass/style.sass */
 .tariff {
   position: relative;
   display: flex;
   height: 66rem;
 }
 
-/* line 245, E:/pottery/sass/style.sass */
+/* line 256, E:/pottery/sass/style.sass */
 .tariff__wrapper {
   position: absolute;
   top: 50%;
@@ -557,7 +597,7 @@ a {
   gap: 30px;
 }
 
-/* line 255, E:/pottery/sass/style.sass */
+/* line 266, E:/pottery/sass/style.sass */
 .card-box {
   width: 34rem;
   height: 59rem;
@@ -566,7 +606,7 @@ a {
   background: #41442C;
 }
 
-/* line 261, E:/pottery/sass/style.sass */
+/* line 272, E:/pottery/sass/style.sass */
 .card-box__list {
   list-style-type: none;
   font-size: 1.8rem;
@@ -574,69 +614,95 @@ a {
   margin-bottom: 4rem;
 }
 
-/* line 266, E:/pottery/sass/style.sass */
+/* line 277, E:/pottery/sass/style.sass */
 .card-box__list li {
   margin-bottom: 1rem;
   text-align: left;
 }
 
-/* line 269, E:/pottery/sass/style.sass */
+/* line 280, E:/pottery/sass/style.sass */
 .price {
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: 4rem;
 }
 
-/* line 273, E:/pottery/sass/style.sass */
+/* line 284, E:/pottery/sass/style.sass */
 .card-box div {
   margin-left: 50%;
   transform: translate(-50%, -50%);
 }
 
-/* line 276, E:/pottery/sass/style.sass */
+/* line 287, E:/pottery/sass/style.sass */
 .card-box2 {
   border: none;
   background: #D4CCBF;
   color: #2F2C22;
 }
 
-/* line 280, E:/pottery/sass/style.sass */
+/* line 291, E:/pottery/sass/style.sass */
 .footer {
   height: 20rem;
   display: flex;
   margin: 0 2.4rem 3.2rem 0;
 }
 
-/* line 284, E:/pottery/sass/style.sass */
+/* line 295, E:/pottery/sass/style.sass */
 .footer_left {
   display: flex;
   margin: 3rem 42rem 2rem 2rem;
 }
 
-/* line 287, E:/pottery/sass/style.sass */
+/* line 298, E:/pottery/sass/style.sass */
 .footer_left_l {
   margin-right: 22rem;
 }
 
-/* line 289, E:/pottery/sass/style.sass */
+/* line 300, E:/pottery/sass/style.sass */
 .footer_right {
   margin: 3rem 2rem;
 }
 
-/* line 291, E:/pottery/sass/style.sass */
+/* line 302, E:/pottery/sass/style.sass */
 .menu__list-footer {
   font-size: 1.6rem;
   margin: 0;
 }
 
-/* line 294, E:/pottery/sass/style.sass */
+/* line 305, E:/pottery/sass/style.sass */
 .menu__list-footer li {
   margin-bottom: 1rem;
 }
 
-/* line 296, E:/pottery/sass/style.sass */
+/* line 307, E:/pottery/sass/style.sass */
 .social {
   margin-bottom: 3rem;
+}
+
+@media (max-width: 1260px) {
+  /* line 2, E:/pottery/sass/_adaptive.sass */
+  .main-title {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  /* line 6, E:/pottery/sass/_adaptive.sass */
+  .menu__list {
+    padding: 0 0 0 2rem;
+  }
+  /* line 8, E:/pottery/sass/_adaptive.sass */
+  .header {
+    margin: 0 0 0 0;
+  }
+  /* line 10, E:/pottery/sass/_adaptive.sass */
+  .wrapper-left {
+    padding-left: 1rem;
+  }
+  /* line 12, E:/pottery/sass/_adaptive.sass */
+  .wrapper__left-img {
+    width: 40rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
