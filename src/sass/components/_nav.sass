@@ -1,0 +1,140 @@
+.menu
+    display: flex
+    align-items: center
+    &__list
+        display: flex
+        list-style: none
+        align-items: center
+        justify-content: start
+        gap: 2rem
+        padding: 5.4rem 7.4rem 5.4rem 0
+        margin: 0
+        @include text 
+        &__link
+            &:hover
+                color: $bg2-color      
+    &__burger
+        display: none
+        
+            
+        
+        &__toggle
+            display: none
+        &__button
+            background: $bg2-color
+            height: 8rem
+            width: 8rem
+            border-top-left-radius: 40%
+            border-bottom-right-radius: 40%
+            position: fixed
+            top: 3.5rem
+            right: 3.5rem
+            z-index: 200
+            text-align: center
+            cursor: pointer
+        &__background
+            width: 6rem
+            height: 6rem
+            border-radius: 50%
+            background: radial-gradient($bg1-color, $bg2-color)
+            position: fixed
+            right: 4rem
+            top: 4rem
+            z-index: 100
+            transition: all .7s
+        &__nav
+            height: 100vh
+            position: fixed
+            top: 0
+            right: 0
+            z-index: 150
+            opacity: 0
+            width: 0
+            transition: all .3s cubic-bezier(0.68, -0.6, 0.32, 1.6)
+        &__list
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+            list-style: none
+            width: 100%
+            
+        &__item
+            text-align: center
+            &:not(:last-child)
+                margin-bottom: 5rem
+        &__link
+            &:link, &:visited    
+                font-size: 4rem
+                color: $text1-color
+                letter-spacing: .5rem
+                text-decoration: none
+                text-transform: uppercase
+                background: linear-gradient(120deg, transparent 0%, transparent 50%, $bg2-color 50%)
+                background-size: 220%
+                padding: 1rem 2rem
+                transition: all .4s
+                display: inline-block
+
+            &:hover, &:active
+                background-position: 100%
+                color: $text2-color
+                transform: translateX(-4rem)
+                font-family: "Ashley"
+            &-reg
+                &:link, &:visited    
+                    background: $bg2-color
+                    color: $text2-color
+
+                &:hover, &:active
+                    color: $text1-color
+                    background: $bg2-color
+            &_lang
+                &:link, &:visited    
+                    color: $text3-color
+
+                &:hover, &:active
+                    color: $text1-color
+                    background: $bg2-color
+
+                      
+        &__toggle:checked ~ &__background
+            transform: scale(80)
+        &__toggle:checked ~ &__nav
+            width: 100%
+            opacity: 1
+
+        &__icon
+            position: relative
+            margin-top: 3.7rem
+            &,
+            &::before,
+            &::after
+                width: 3rem
+                height: .2rem
+                background: #000
+                display: inline-block
+            &::before,
+            &::after
+                content: ""
+                position: absolute
+                left: 0
+                transition: all .2s
+            &::before
+                top: -.8rem
+            &::after
+                top: .8rem
+
+        &__button:hover &__icon::before
+            top: -1rem
+        &__button:hover &__icon::after
+            top: 1rem
+
+        &__toggle:checked + &__button &__icon
+            background: transparent
+        &__toggle:checked + &__button &__icon::before
+            top: 0
+            transform: rotate(135deg)
+        &__toggle:checked + &__button &__icon::after
+            top: 0
+            transform: rotate(-135deg)
